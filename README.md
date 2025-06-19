@@ -43,7 +43,7 @@ Microsoft Excel as input format
 
 **Files:**
 
-AssignmentTemplate-4.xlsx: Contains the input data for ingredient names, costs, supply limits, ratios, and minimum mix requirement.
+AssignmentTemplate-4.xlsx: Contains the input data frame for ingredient names, costs, supply limits, ratios, and minimum mix requirement.
 
 feed_mix_optimizer.py: Python script to model and solve the optimization problem using Pyomo.
 
