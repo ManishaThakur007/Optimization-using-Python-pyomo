@@ -99,5 +99,5 @@ Total Cost: £970.15
 
 4. Solving LPs with open-source solvers like GLPK
 
-**License**
+**License:**
 This project is for educational and demonstration purposes. Feel free to adapt it for your own use.
