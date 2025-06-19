@@ -3,7 +3,8 @@
 **Overview:**
 This project uses linear programming to solve a real-world feed mix optimization problem for a fictional company, X Feed Company. The objective is to minimize the cost of producing an animal feed mixture that satisfies multiple ingredient ratio constraints and supply limits.
 
-**Problem Statement**
+**Problem Statement:**
+
 The X Feed Company makes a feed from four ingredients:
 
 Oats (max 300 kg, £0.90/kg)
@@ -28,6 +29,7 @@ The total mix must be at least 665 kg
 Minimize the total cost of the feed mix while satisfying the constraints above.
 
 **Tools Used:**
+
 Python 3
 
 Pyomo (Python Optimization Modeling Objects)
@@ -38,12 +40,15 @@ Pandas and NumPy for data handling
 
 Microsoft Excel as input format
 
-**Files**
+
+**Files:**
+
 AssignmentTemplate-4.xlsx: Contains the input data for ingredient names, costs, supply limits, ratios, and minimum mix requirement.
 
 feed_mix_optimizer.py: Python script to model and solve the optimization problem using Pyomo.
 
-**How to Run**
+**How to Run:**
+
 Install the required packages:
 
 bash
@@ -72,7 +77,8 @@ Quantity (kg) of each ingredient to use
 
 Total cost of the optimized mix
 
-**Output**
+**Output:**
+
 yaml
 Copy
 Edit
@@ -83,14 +89,15 @@ Soybeans: 199.5 kg
 Vitamin supplement: 100.0 kg
 Total Cost: £970.15
 
-**Learning Outcomes**
-Formulating real-world problems as linear programming models
+**Learning Outcomes:**
 
-Using Pyomo for optimization in Python
+1. Formulating real-world problems as linear programming models
 
-Integrating data from Excel into a Pyomo model
+2. Using Pyomo for optimization in Python
 
-Solving LPs with open-source solvers like GLPK
+3. Integrating data from Excel into a Pyomo model
+
+4. Solving LPs with open-source solvers like GLPK
 
 **License**
 This project is for educational and demonstration purposes. Feel free to adapt it for your own use.
