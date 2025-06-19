@@ -1,8 +1,8 @@
-🐄 Optimal Feed Mix Optimization with Pyomo
-📌 Overview
+##Optimal Feed Mix Optimization with Pyomo
+**Overview**
 This project uses linear programming to solve a real-world feed mix optimization problem for a fictional company, X Feed Company. The objective is to minimize the cost of producing an animal feed mixture that satisfies multiple ingredient ratio constraints and supply limits.
 
-📋 Problem Statement
+**Problem Statement**
 The X Feed Company makes a feed from four ingredients:
 
 Oats (max 300 kg, £0.90/kg)
